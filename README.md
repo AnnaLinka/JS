@@ -1,4 +1,5 @@
 # Tic tac toe game
-jQuery
-CSS
-RWD
+Play! https://annalinka.github.io/Tic-tac-toe/
+- jQuery
+- CSS
+- RWD
