@@ -1,4 +1,4 @@
 # Tic tac toe game
-*jQuery
-*CSS
-*RWD
+jQuery
+CSS
+RWD
