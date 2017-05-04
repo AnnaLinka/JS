@@ -17,7 +17,7 @@ $(document).ready(function() {
     $('.tic').text("#").css("background-color", "#46484a");
     setTimeout(function() {
       $("h2").text("");
-    }, 1500);
+    }, 2500);
     gameOn = true;
   };
 
@@ -83,6 +83,7 @@ $(document).ready(function() {
 
   function winCondition (turnArray, currentTurn) {
     var infoText = $('h2');
+    infoText.css("color", "rgb(45, 86, 134)");
     // Option 1: All the same in top row
     if (turnArray[0]===currentTurn && turnArray[1] === currentTurn && turnArray[2] === currentTurn) {
       gameOn = true;
